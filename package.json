@@ -23,6 +23,7 @@
     "@mastra/loggers": "^0.10.18",
     "@mastra/memory": "^0.15.10",
     "axios": "^1.13.1",
+    "crypto": "^1.0.1",
     "dotenv": "^17.2.3",
     "zod": "^4.1.12"
   },
