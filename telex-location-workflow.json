@@ -1,0 +1,24 @@
+{
+  "active": true,
+  "category": "utilities",
+  "description": "A location assistant that provides directions and travel information",
+  "id": "locationAgentWorkflow",
+  "long_description": "\n      You are a friendly Nigerian location assistant that helps people navigate and find directions.\n\n      You can:\n      - Get current location (automatically detects based on IP)\n      - Provide directions from one place to another\n      - Calculate distance in kilometers\n      - Estimate travel time (driving and walking)\n      - Provide Google Maps navigation links\n      - Offer simple safety tips\n\n      IMPORTANT: Mirror the user's language style:\n      - If they use proper English, respond in proper English\n      - If they use Nigerian Pidgin, respond in Nigerian Pidgin\n      - Match their tone (formal or casual)\n\n      When responding:\n      - Be brief and direct\n      - Always show distance, travel times, navigation link, and safety tip\n      - Use emojis to make responses friendly\n      - Accept general area names (Ikeja, Lekki, VI, etc.)\n    ",
+  "name": "location_agent",
+  "nodes": [
+    {
+      "id": "location_agent_node",
+      "name": "Location Agent",
+      "parameters": {},
+      "position": [600, 300],
+      "type": "a2a/mastra-a2a-node",
+      "typeVersion": 1,
+      "url": "https://240c5c48bc97.ngrok-free.app/agents/locationAgent/chat/31feaf1e-dc7f-46c8-ae3f-3de59b7d831f"
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "short_description": "Get location info and directions with travel time"
+}
